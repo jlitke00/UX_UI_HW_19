@@ -1,0 +1,506 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .jost {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.inline-block {
+
+    display: inline-block;
+}
+
+.logo {
+    
+    padding: 1%;
+    height: 111px;
+}
+.topList {
+    margin-left: 57%;
+}
+
+.navigation {
+    width: 100%;
+    background-color: #0A2240;
+    
+    
+}
+
+
+.heroBar {
+    background-color: #E07500;
+    width: 85%;
+    display: flex;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 10%;
+}
+.heroWords {
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    font-family: 'Jost';
+    font-size: 120px;
+    margin-top: 1px;
+    
+}
+
+h2 {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 45px;
+    line-height: 1.2px;
+}
+
+#myPic {
+    display: flex;
+    align-self: flex-end;
+    height: 315px;
+    
+  
+}
+
+li {
+    color: white;
+    font-family: 'Open Sans';
+    font-style: 600;
+    font-size: 23px;
+    margin: 25px;
+    font-weight: 600;
+}
+
+.heroImg {
+   width: 781px;
+}
+
+.content {
+    width: 1351px;
+    margin-top: 163px;
+}
+
+.heroWordsBelow {
+    color: #777777;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    margin-left: 15%;
+    font-size: 25.25px;
+}
+
+button {
+    background-color: #E07500;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 8px;
+    position: absolute;
+    left: 50vw;
+    width: 228px;
+    height: 43px;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+}
+
+.footer {
+    background-color: #0A2240;
+    margin-top: 200px;
+    width: 100%;
+    
+}
+
+h3 {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 23px;
+}
+
+h4 {
+    color: white;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    text-align: center;
+
+   
+   
+}
+
+.footerButtons {
+    display: inline-block;
+}
+
+.getConnected {
+    margin-left: 85%;
+    
+   
+}
+
+#footerSocial {
+    margin-left: 65px;
+}
+
+#myLogoBottom{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h6 {
+    font-size: 18px;
+    color: black;
+    font-family: "Jost";
+    font-weight: 700;
+}
+
+.topIndicator {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.downArrowTop {
+    margin-left: 10px;
+}
+
+.bottomIndicator {
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+    margin-top: 2%;
+}
+
+.mySkillsIndicator {
+    Margin-left: 10px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: "project1Info project1Image" "project2Info project2Image" "project3Info project3Image";
+    grid-template-rows: 595px 595px 595px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 8%;
+}
+
+.insideInfo {
+    padding: 25px;
+}
+.project1Info {
+    grid-area: 1 / 1;
+    background-color: #7A8AAE;
+    width: 595px;
+    height: 405px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project1Image {
+    
+    height: 405px;
+    grid-area: 1 / 2;
+    margin-left: 80px;
+}
+
+.project2Info {
+    grid-area: 2 / 2;
+    background-color: #7A8AAE;
+    width: 595px;
+    height: 405px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.project2Image {
+    grid-area: 2 / 1;
+    width: 595px;
+   
+    margin-top: 20px;
+}
+
+.project3Info {
+    grid-area: 3 / 1;
+    background-color: #7A8AAE;
+    width: 595px;
+    height: 405px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.project3Image {
+    width: 595px;
+    grid-area: 3 / 2;
+    margin-top: 20px;
+}
+
+.myWorkWords {
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.viewMoreButton {
+    background-color: #E07500;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 8px;
+    position: absolute;
+    text-align: center;
+    width: 136px;
+    height: 43px;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skillsHeader {
+    color: #000;
+    font-family: 'Jost';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 240px;
+}
+
+.skillWords {
+    color: #777;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 222px;
+}
+
+.flexContainerTools {
+    display: flex;
+    margin-top: 50px;
+   
+   width: 100vw;
+   
+   
+   
+    
+}
+.figma {
+    align-items: center;
+    width: 25%;
+
+    text-align: center;
+}
+.figjam {
+    align-items: center;
+    width: 25%;
+    text-align: center;
+
+}
+.photoshop {
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+.illustrator {
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+.googleDrive {
+    align-items: center;
+    width: 25%;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-items: auto;
+    width: 100%;
+    margin-top: 50px;
+   
+   
+}
+
+
+
+.userEmpathy {
+    width: 25%;
+    align-items: center;
+    padding-left: 20%;
+    
+}
+
+.uiPrototyping {
+    width: 25%;
+    align-items: center;
+  
+}
+
+.userResearch {
+    width: 25%;
+    align-items: center;
+   
+}
+
+.toolsImg {
+    height: 119px;
+}
+
+.caption {
+    display:block;
+    color: #000;
+    font-family: 'Jost';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.toolsIKnow {
+    color: #000;
+    font-family: 'Jost';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+   
+    
+}
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .flexContainerTools {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #myPic {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .heroBar {
+        flex-direction: column;
+        width: 75vw;
+        margin-left: 0;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-areas: "project1Info" "project1Image" "project2Info" "project2Image" "project3Info" "project3Image";
+        grid-template-rows: repeat(6, 405px);
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .project1Info {
+        grid-area: 1 / 1;
+        background-color: #7A8AAE;
+        width: 595px;
+        height: 405px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .project1Image {
+    
+        height: 405px;
+        grid-area: 2 / 1;
+       
+    }
+    .project2Info {
+        grid-area: 3 / 1;
+        background-color: #7A8AAE;
+        width: 595px;
+        height: 405px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .project2Image {
+        grid-area: 4 / 1;
+        width: 595px;
+       
+        
+    }
+    .project3Info {
+        grid-area: 5 / 1;
+        background-color: #7A8AAE;
+        width: 595px;
+        height: 405px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .project3Image {
+        width: 595px;
+        grid-area: 6 / 1;
+       
+    }
+    .inline-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+       
+    }
+
+    .heroWordsBelow {
+        font-size: 14px; 
+        margin-left: 0; 
+        text-align: left;
+    }
+    
+   
+
+ 
+    h2 {
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 35px;
+        line-height: 1.2px;
+        
+        
+    }
+    h1 {
+        color: white;
+        font-family: 'Jost';
+        font-size: 100px;
+        
+        
+        
+    }
+    .getConnected {
+        margin-left: 0; 
+        text-align: center;
+        margin-top: 20px; 
+    }
+    .footerButtons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
