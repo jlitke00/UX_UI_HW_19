@@ -26,10 +26,10 @@
             <nav class="inline-block">
             
                 <ul>
-                    <li class="inline-block work">Work</li>
-                    <li class="inline-block">About</li>
-                    <li class="inline-block">Resume</li>
-                    <li class="inline-block">Contact</li>
+                    <li class="inline-block wordButtons" id="workButton">Work</li>
+                    <li class="inline-block wordButtons">About</li>
+                    <li class="inline-block wordButtons">Resume</li>
+                    <li class="inline-block wordButtons">Contact</li>
                 </ul>
             </nav>
             <img src="./images/Social Icons.png">
@@ -53,12 +53,14 @@
             The main focus is to bring solutions that are user friendly and nice to look at as well.<br>
             Bring a problem and it will be fixed.
             </p>
-            <button>Download Resume</button>
+            <div class="buttonContainer">
+                <button class="downloadButton">Download Resume</button>
+            </div>
         </div>
     </section>
 
 
-    <section class="myWork">
+    <section class="myWork" id="myWork">
         <div class="topIndicator">
             <div class="myWorkWords">
                 <h6>My Work</h6>
@@ -186,23 +188,28 @@
 
     
     <footer class="footer">
-        <div class="inline-block">
-            <img id="myLogoBottom" src="./images/Monogram-JL-Logo-Design-by-Greenlines-Studios 1.png">
-        </div>
-        <ul class="footerButtons">
-            <li class="inline-block work">Work</li>
-            <li class="inline-block">About</li>
-            <li class="inline-block">Resume</li>
-            <li class="inline-block">Contact</li>
-        </ul>
-        <div class="getConnected">
-            <h3> Get connected!</h3> 
-            <img id="footerEmail" src="./images/Icon.png">
-            <img id="footerSocial" src="./images/Social Icons.png">
+        
+        <div class="footerContent">
+            <div class="inline-block">
+                <img id="myLogoBottom" src="./images/Monogram-JL-Logo-Design-by-Greenlines-Studios 1.png">
+            </div>
+            <ul class="footerButtons">
+                <li class="inline-block wordButtons" id="workButtonFooter">Work</li>
+                <li class="inline-block wordButtons">About</li>
+                <li class="inline-block wordButtons">Resume</li>
+                <li class="inline-block wordButtons">Contact</li>
+            </ul>
+            <div class="getConnected">
+                <h3> Get connected!</h3> 
+                <div class="socialIcons">
+                    <img id="footerEmail" src="./images/Icon.png">
+                    <img id="footerSocial" src="./images/Social Icons.png">
+                </div>
+            </div>
         </div>
         <h4>Copyright © 2024 Josh Litke. All rights reserved.</h4>
     </footer>
 
 </body>
-
+<script src="js/index.js"></script>
 </html>
