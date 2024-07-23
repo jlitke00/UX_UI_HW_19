@@ -307,7 +307,8 @@ h5 {
     text-align: center;
     line-height: 43px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease; 
-    padding: 8px 12px
+    padding: 8px 12px;
+    text-decoration: none;
 }
 
 .viewMoreButton:hover {
